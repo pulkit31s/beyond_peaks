@@ -37,7 +37,7 @@ export default function Footer() {
             </Link>
             <p className="text-sm mb-4">
               Inspiring adventures, one peak at a time. Join our community of adventurers 
-              exploring the world's most beautiful mountains.
+              exploring the world&apos;s most beautiful mountains.
             </p>
             <div className="flex items-center gap-4">
               {socialLinks.map((social) => {

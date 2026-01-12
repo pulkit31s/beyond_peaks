@@ -8,7 +8,7 @@ export default function MissionStatement() {
           Why Beyond Peaks?
         </h2>
         <p className="text-lg sm:text-xl text-stone-gray leading-relaxed mb-6">
-          Beyond Peaks isn't just about reaching summits—it's about discovering yourself in the wild. 
+          Beyond Peaks isn&apos;t just about reaching summits—it&apos;s about discovering yourself in the wild. 
           We believe every mountain, every trail, every sunrise holds a story waiting to be lived.
         </p>
         <p className="text-lg sm:text-xl text-stone-gray leading-relaxed">
