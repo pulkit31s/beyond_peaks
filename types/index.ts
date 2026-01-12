@@ -12,6 +12,43 @@ export interface Trek {
   nextDeparture?: string
   slotsLeft?: number
   badge?: 'Upcoming' | 'Filling Fast' | 'New'
+  tagline?: string
+  story?: string[]
+  highlights?: string[]
+  bestSeason?: string
+  itinerary?: ItineraryDay[]
+  inclusions?: string[]
+  exclusions?: string[]
+  fitnessRequirements?: string[]
+  preparationTips?: string[]
+  safetyMeasures?: string
+  images?: string[]
+  videos?: string[]
+  faqs?: FAQ[]
+  packages?: Package[]
+}
+
+export interface ItineraryDay {
+  day: number
+  title: string
+  description: string
+  distance?: string
+  elevationGain?: string
+  stayType?: string
+  activities?: string[]
+}
+
+export interface FAQ {
+  question: string
+  answer: string
+}
+
+export interface Package {
+  name: string
+  price: number
+  description: string
+  inclusions: string[]
+  recommended?: boolean
 }
 
 export interface Testimonial {
